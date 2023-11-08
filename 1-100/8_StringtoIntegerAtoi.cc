@@ -1,6 +1,7 @@
 class Solution {
 public:
     int myAtoi(string s) {
+        /** My Wrong Solution: */
         int i = 0, n = s.size(), l = 0, r = 0;
         long c = 0;
         bool sign = true;
